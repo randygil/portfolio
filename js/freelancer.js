@@ -22,8 +22,10 @@ sr.reveal('.reveal');
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
     if (scrollDistance > 100) {
+      console.log('top');
       $('.scroll-to-top').fadeIn();
     } else {
+      console.log('topno');
       $('.scroll-to-top').fadeOut();
     }
   });
