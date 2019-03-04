@@ -1,0 +1,24 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Google Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Google Sans Italic'), local('GoogleSans-Italic'), url(../fonts/GoogleSans-Italic.ttf);
+  }
+
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Google Sans Regular'), local('GoogleSans-Regular'),  url(../fonts/GoogleSans-Regular.ttf);
+  }
+
+  /* latin-ext */
+  @font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Google Sans Bold'), local('GoogleSans-Bold'), url(../fonts/GoogleSans-Bold.ttf);
+  }
